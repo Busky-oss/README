@@ -4,8 +4,7 @@ flowchart TB
   C[Deputy Director-General / Chief Operating Officer]
   A --> B
   B --> C
-
-  subgraph Executive Directors
+    subgraph Executive Directors
     D1[Director, Administration & Human Resources]
     D2[Director, Finance & Accounts]
     D3[Director, Production / Operations]
@@ -28,7 +27,6 @@ flowchart TB
   C --> D8
   C --> D9
   C --> D10
-
   subgraph Production Units (under Director, Production)
     P1[Small Arms Unit]
     P2[Ammunition & Munitions Unit]
@@ -43,7 +41,6 @@ flowchart TB
   D3 --> P4
   D3 --> P5
   D3 --> P6
-
   subgraph Support Functions
     S1[Works & Services / Facilities]
     S2[Quality Control Laboratory]
@@ -51,7 +48,6 @@ flowchart TB
     S4[IT & Digital Services]
     S5[Training & Apprenticeship]
   end
-
   D4 --> S1
   D5 --> S2
   D9 --> S3
